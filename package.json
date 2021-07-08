@@ -1,0 +1,11 @@
+{
+  "name": "my-project",
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-nightly.758",
+    "parcel": "next"
+  }
+}
