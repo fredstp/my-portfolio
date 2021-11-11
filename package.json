@@ -6,6 +6,7 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.0-nightly.758",
-    "parcel": "next"
+    "parcel": "next",
+    "sass": "^1.43.4"
   }
 }

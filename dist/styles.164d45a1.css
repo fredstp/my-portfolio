@@ -106,7 +106,6 @@ nav .nav-fix {
   padding: 0 1.2rem;
   margin: auto;
 }
-
 nav .nav-fix ul {
   display: flex;
   justify-content: center;
@@ -118,24 +117,20 @@ nav .nav-fix ul {
   display: flex;
   align-items: center;
 }
-
 .container-home .container-picture img {
   height: 60rem;
   width: 100%;
 }
-
 .container-home .container-title {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 .container-home .container-title h1 {
   font-size: 9rem;
   font-weight: 700;
 }
-
 .container-home .container-title h2 {
   font-size: 4.2rem;
   font-weight: 600;
@@ -150,40 +145,25 @@ nav .nav-fix ul {
   font-size: 6rem;
   font-weight: 700;
 }
-
 .container-about .container-about-citation {
   display: flex;
   flex-direction: column;
   height: 100vh;
 }
-
 .container-about .container-about-citation span {
   text-align: end;
 }
-
 .container-about .container-about-presentation {
   height: 100vh;
 }
 
 .container-projet {
   height: 100vh;
-  background: #3d3d3d;
   display: flex;
-  justify-content: center;
-  align-items: center;
+}
+.container-projet .card {
+  height: 350px;
+  width: 280px;
 }
 
-.container-projet .container-projet-cards .container-cards {
-  display: flex;
-  justify-content: center;
-  margin: 4rem;
-  gap: 4rem;
-}
-
-.container-projet .container-projet-cards .card {
-  height: 39rem;
-  width: 70rem;
-  background-image: url("cardMonProjet.771dbaaa.png");
-}
-
-/*# sourceMappingURL=index.ee15d97f.css.map */
+/*# sourceMappingURL=/styles.164d45a1.css.map */
