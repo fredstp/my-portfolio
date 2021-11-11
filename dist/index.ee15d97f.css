@@ -183,7 +183,14 @@ nav .nav-fix ul {
 .container-projet .container-projet-cards .card {
   height: 39rem;
   width: 70rem;
+  display: flex;
+  align-items: center;
   background-image: url("cardMonProjet.771dbaaa.png");
+}
+
+.container-projet .container-projet-cards .card h3 {
+  width: 100%;
+  text-align: center;
 }
 
 /*# sourceMappingURL=index.ee15d97f.css.map */

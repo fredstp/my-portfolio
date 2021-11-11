@@ -83,7 +83,13 @@ nav {
     .card {
       height: 39rem;
       width: 70rem;
+      display: flex;
+      align-items: center;
       background-image: url("../../assets/img/cardMonProjet.png");
+      h3 {
+        width: 100%;
+        text-align: center;
+      }
     }
   }
 }
