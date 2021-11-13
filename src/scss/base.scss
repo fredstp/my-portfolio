@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-  .nav-fix {
+  .nav-primary {
     font-size: 3rem;
     padding: 0 1.2rem;
     margin: auto;
@@ -44,6 +44,7 @@ nav {
     }
   }
 }
+
 .container-about {
   display: flex;
   flex-direction: column;
@@ -73,22 +74,93 @@ nav {
   justify-content: center;
   align-items: center;
   .container-projet-cards {
+    padding: 2rem 0rem;
+    margin: auto;
     .container-cards {
       display: flex;
       justify-content: center;
-      margin: 4rem;
-      gap: 4rem;
+      gap: 2rem;
+      margin: 2rem;
     }
 
     .card {
       height: 39rem;
       width: 70rem;
+      margin: auto;
       display: flex;
       align-items: center;
       background-image: url("../../assets/img/cardMonProjet.png");
       h3 {
         width: 100%;
         text-align: center;
+      }
+    }
+  }
+}
+
+.container-form {
+  height: 100vh;
+  display: flex;
+  margin: auto;
+  .container-form-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .form-contact {
+      display: block;
+      width: 100%;
+      padding: 1rem 0;
+      font-size: xxx-large;
+      margin-left: 10rem;
+      h2 {
+        margin: 10rem 1em;
+        font-size: 8rem;
+      }
+      input[type="text"] {
+        border-bottom: solid 1px black;
+        width: 50%;
+
+        box-sizing: border-box;
+      }
+      input[type="submit"] {
+        width: 20rem;
+        height: 6rem;
+        margin-top: 10rem;
+        border: 1px solid;
+        border-radius: 3rem;
+        background-color: black;
+        color: white;
+      }
+    }
+
+    .container-logo {
+      width: 100%;
+      padding: 4rem;
+      display: flex;
+      a {
+        img {
+          width: 40%;
+        }
+      }
+    }
+  }
+  .container-form-right {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+    .cercle {
+      width: 30rem;
+      height: 30rem;
+      margin: auto;
+      border-radius: 20rem;
+      background: black;
+      text-align: center;
+      padding: 7rem;
+      span {
+        color: white;
+        font-size: 4rem;
       }
     }
   }

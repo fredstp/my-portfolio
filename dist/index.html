@@ -9,20 +9,22 @@
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
   </head>
 
+  <nav>
+    <div class="nav-primary">
+      <ul>
+        <li><a href="#home">ACCEUIL</a></li>
+        <li><a href="#about">A PROPOS</a></li>
+        <li><a href="#projet">PROJETS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+
   <body>
 
-    <nav>
-      <div class="nav-fix">
-        <ul>
-          <li>ACCEUIL</li>
-          <li>A PROPOS</li>
-          <li>PROJETS</li>
-          <li>CONTACT</li>
-        </ul>
-      </div>
-    </nav>
+    
 
-    <div class="container-home">
+    <div class="container-home" id="home">
       <div class="container-picture"><img src="/pictureofme.5aa88653.png" alt="">
       </div>
       <div class="container-title">
@@ -30,9 +32,9 @@
         <h2>Développeur Web</h2>
       </div>
     </div>
-    
+  
 
-    <div class="container-about">
+    <div class="container-about" id="about">
       <div class="container-about-citation">
         <p>" PARFOIS LES CHOSES LES PLUS SIMPLES SONT LES PLUS DURES À RÉALISER. " </p>
         <span>ME, MYSELF & I</span>
@@ -43,7 +45,7 @@
       </div>
     </div>
 
-    <div class="container-projet">
+    <div class="container-projet" id="projet">
         <div class="container-projet-cards">
           <div class="container-cards">
             <div class="card"> 
@@ -64,5 +66,32 @@
         </div> 
       </div>  
 
+    <div class="container-form" id="contact">
+      <div class="container-form-left"> 
+        <div class="form-contact">
+          <h2>Get in touch</h2>
+          <form action="/action_page.php">
+            <label for="name"></label>
+            <input type="text" id="name" name="name" placeholder="Name">
+            <label for="subject"></label>
+            <input type="text" id="subject" name="subject" placeholder="Write something..">
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        <div class="container-logo">
+          <a href="https://www.linkedin.com/in/frederic-real/"><img class="logo" src="/linkedin.19bdf31a.png" alt="linkedin"></a>
+          <a href="https://github.com/fredstp"><img class="logo" src="/github.0a97c06a.png" alt="github"></a>
+          <a href="mailto:Frederic.real@icloud.com"><img class="logo" src="/email.9f1f5d14.png" alt="email"></a>
+        </div>  
+        
+      </div>
+      <div class="container-form-right">
+          <a href=""><div class="cercle">
+            <span>CV <br> Click HERE</span>
+          </div></a>
+      </div>
+    </div>
   </body>
-</html><script src="/quick-starter-parcel-V2.ac97e733.js"></script>
+</html>
+
+<script src="/quick-starter-parcel-V2.ac97e733.js"></script>
