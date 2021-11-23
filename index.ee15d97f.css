@@ -6,7 +6,9 @@
 /*─
 /*─────────────────────────────────────────────────────────────────────────────────────────────────*/
 /*─────────────────────────────────────────────────────────────────────────────────────────────────*/
-*, *:after, *:before {
+*,
+*:after,
+*:before {
   box-sizing: border-box;
 }
 
@@ -35,12 +37,14 @@ li {
   list-style: none;
 }
 
-input, textarea, select, button {
+input,
+textarea,
+select,
+button {
   display: block;
   box-sizing: border-box;
   border-radius: 0;
   outline: none;
-  border: none;
   background: none;
   color: inherit;
 }
@@ -71,11 +75,15 @@ a {
   text-decoration: none;
 }
 
-img, video, svg, picture {
+img,
+video,
+svg,
+picture {
   display: block;
 }
 
-img, video {
+img,
+video {
   width: 100%;
   height: auto;
 }
@@ -101,12 +109,13 @@ body {
   height: 300vh;
 }
 
-nav .nav-fix {
+nav .nav-primary {
   font-size: 3rem;
   padding: 0 1.2rem;
   margin: auto;
 }
-nav .nav-fix ul {
+
+nav .nav-primary ul {
   display: flex;
   justify-content: center;
   margin-top: 20px;
@@ -117,20 +126,24 @@ nav .nav-fix ul {
   display: flex;
   align-items: center;
 }
+
 .container-home .container-picture img {
   height: 60rem;
   width: 100%;
 }
+
 .container-home .container-title {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .container-home .container-title h1 {
   font-size: 9rem;
   font-weight: 700;
 }
+
 .container-home .container-title h2 {
   font-size: 4.2rem;
   font-weight: 600;
@@ -145,25 +158,127 @@ nav .nav-fix ul {
   font-size: 6rem;
   font-weight: 700;
 }
+
 .container-about .container-about-citation {
   display: flex;
   flex-direction: column;
   height: 100vh;
 }
+
 .container-about .container-about-citation span {
   text-align: end;
 }
+
 .container-about .container-about-presentation {
   height: 100vh;
 }
 
 .container-projet {
   height: 100vh;
+  background: #3d3d3d;
   display: flex;
-}
-.container-projet .card {
-  height: 350px;
-  width: 280px;
+  justify-content: center;
+  align-items: center;
 }
 
-/*# sourceMappingURL=/styles.164d45a1.css.map */
+.container-projet .container-projet-cards {
+  padding: 2rem 0rem;
+  margin: auto;
+}
+
+.container-projet .container-projet-cards .container-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.container-projet .container-projet-cards .card {
+  height: 39rem;
+  width: 70rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  background-image: url("cardMonProjet.771dbaaa.png");
+}
+
+.container-projet .container-projet-cards .card h3 {
+  width: 100%;
+  text-align: center;
+}
+
+.container-form {
+  height: 100vh;
+  display: flex;
+  margin: auto;
+}
+
+.container-form .container-form-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-form .container-form-left .form-contact {
+  display: block;
+  width: 100%;
+  padding: 1rem 0;
+  font-size: xxx-large;
+  margin-left: 10rem;
+}
+
+.container-form .container-form-left .form-contact h2 {
+  margin: 10rem 1em;
+  font-size: 8rem;
+}
+
+.container-form .container-form-left .form-contact input[type=text] {
+  border-bottom: solid 1px black;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.container-form .container-form-left .form-contact input[type=submit] {
+  width: 20rem;
+  height: 6rem;
+  margin-top: 10rem;
+  border: 1px solid;
+  border-radius: 3rem;
+  background-color: black;
+  color: white;
+}
+
+.container-form .container-form-left .container-logo {
+  width: 100%;
+  padding: 4rem;
+  display: flex;
+}
+
+.container-form .container-form-left .container-logo a img {
+  width: 40%;
+}
+
+.container-form .container-form-right {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem;
+}
+
+.container-form .container-form-right .cercle {
+  width: 30rem;
+  height: 30rem;
+  margin: auto;
+  border-radius: 20rem;
+  background: black;
+  text-align: center;
+  padding: 7rem;
+}
+
+.container-form .container-form-right .cercle span {
+  color: white;
+  font-size: 4rem;
+}
+
+/*# sourceMappingURL=index.ee15d97f.css.map */

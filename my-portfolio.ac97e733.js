@@ -385,4 +385,4 @@ function hmrAcceptRun(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}]},["fLEON","6JU4p"], "6JU4p", "parcelRequire716c")
 
-//# sourceMappingURL=quick-starter-parcel-V2.ac97e733.js.map
+//# sourceMappingURL=my-portfolio.ac97e733.js.map
